@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MovieEntity" representedClassName="MovieEntity" syncable="YES">
+        <attribute name="movieId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moviePosterURL" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="movieTitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShowEntity" representedClassName="ShowEntity" syncable="YES">
+        <attribute name="showAuthor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showRating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ShowEntity" positionX="-45" positionY="0" width="128" height="120"/>
+        <element name="MovieEntity" positionX="-45" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
